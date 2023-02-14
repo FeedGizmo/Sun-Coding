@@ -12,7 +12,7 @@ int main (int argc, char *argv[])
     //Adding Limitations Based on Argument Count
     while(argc != 2)
     {
-        printf("USE: ./convert.exe 1 (for dec to bin) or ./convert.exe 2 (for bin to dec)\n");
+        printf("USE: ./convert 1 (for dec to bin) or ./convert 2 (for bin to dec)\n");
         return 1;
     }
     //Using the Argument Value to Choose Type of Conversion
